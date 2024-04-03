@@ -29,13 +29,15 @@
   }
   
   .SearchBarSortOptions li:hover {
-    color: #d4cfcf;
+    color: yellow;
+    transition: 0.3s;
   }
   
   .SearchBarSortOptions li.active,
   .SearchBarSortOptions li.active:hover {
-    border-bottom: 1px solid #f0c36c;
-    color: #f0c36c;
+    border-bottom: 1px solid yellow;
+    color: yellow;
+    transition: 0.5s;
   }
   
   .SearchBarFields {
@@ -62,16 +64,17 @@
     text-align: center;
   }
   
-  .SearchBarSubmit a {
+  .SearchBarSubmit button {
     border-radius: 4px;
     padding: 0.72rem 1.7rem;
     background-color: #cca353;
     color: #ffffff;
     font-weight: 600;
     transition: background-color 0.5s;
+    border: 0;
   }
   
-  .SearchBarSubmit a:hover {
+  .SearchBarSubmit button:hover {
     cursor: pointer;
     background-color: #a7874b;
   }
@@ -84,6 +87,7 @@
     .SearchBarSortOptions ul {
       margin-left: 2rem;
       margin-right: 2rem;
+      
     }
   
     .SearchBarFields {
